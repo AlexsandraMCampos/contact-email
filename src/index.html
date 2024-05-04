@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="">
+
+    <title>Contact Email</title>
+</head>
+
+<body class="w-fullh-96 bg-blue-200 flex justify-center items-center text-center mt-28">
+    <section class="w-72 p-10 flex flex-col justify-center items-center rounded-lg border-2 border-white">
+        <h1 class="text-blu-950 font-bold text-xl text-nowrap mb-3">Contact Me</h1>
+        <form id="contact-form" action="" class="flex flex-col gap-4 ">
+            <label for="name" class="text-left">Nome</label>
+            <input type="text" class="rounded-md" name="" id="name" maxlength="12" required>
+            <label for="message" class="text-left">Email</label>
+            <input type="email" class="rounded-md" name="email" id="email" required>
+            <label for="message" class="text-left">Mensagem</label>
+            <textarea class="rounded-md resize-none" name="message" id="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" ></script>
+</body >
